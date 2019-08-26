@@ -25,4 +25,5 @@ Analysis <- drop.tip.beast("treeannotator_tree_file.tree","individuals_to_delete
 
 
  Developped based on tree file format of Beast v1.9 / 1.10
+ 
  This script may or may not work on other versions output trees.
