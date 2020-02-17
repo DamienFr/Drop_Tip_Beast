@@ -17,10 +17,10 @@ Script to delete tips of a summary tree produced by TreeAnnotator from a Beast .
 ########################## Working example ###################################
 
 
-Analysis <- drop.tip.beast("treeannotator_tree_file.tree","individuals_to_delete.csv")
- treeannotator_tree_file : tree file in the current directory
- indivs_names_to_delete : csv file with ; separator, no quote,
- first field must indivs to delete names
+ Analysis <- drop.tip.beast("treeannotator_tree_file.tree","individuals_to_delete.csv")
+  treeannotator_tree_file : tree file in the current directory
+  indivs_names_to_delete : csv file with ; separator, no quote,
+  first field must indivs to delete names
 ##############################################################################
 
 
